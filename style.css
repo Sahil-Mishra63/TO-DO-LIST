@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* margin-top: 130px; */
+}
+
+.container{
+    background-color: lightblue;
+    width: 1000px;
+    height: 700px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.inputArea{
+    background-color: aqua;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+input{
+    width: 90%;
+    height: 70px;
+    font-size: larger;
+    padding: 5px;
+    box-shadow: 10px 7px 20px black;
+}
+
+#add{
+    height: 70px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    box-shadow: 10px 7px 20px black;
+    cursor: pointer;
+}
+
+button{
+    height: 35px;
+    width: 50px;
+    background-color: rebeccapurple;
+    color: white;
+    cursor: pointer;
+}
+
+.listArea{
+    /* background-color: lightblue; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists{
+    background-color: lightgoldenrodyellow;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 10px;
+    box-shadow: 10px 7px 20px black;
+    margin-top: 10px;
+}
+
+.lists h1{
+    background-color: lightsalmon;
+    /* background-color: darkblue; */
+
+}
+ul{
+    list-style: none;
+}
+li{
+    background-color: lightgray;
+    border: 3px solid white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#done{
+    text-decoration: line-through;
+}
